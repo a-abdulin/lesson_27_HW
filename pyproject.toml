@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lesson-27-hw"
+version = "0.1.0"
+description = ""
+authors = ["a-abdulin <abdulin@list.ru>"]
+readme = "README.md"
+packages = [{include = "lesson_27_hw"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
